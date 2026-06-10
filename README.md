@@ -7,4 +7,6 @@ Anaconda is a package of Python and R tools that we will use for our projects. T
 
 ![conda install](https://github.com/aeason18/SAC-Coding-Meetings-26-27/blob/main/images/conda%20install.png)
 
-When it prompts you to make selections, you can leave everything as the default.
+When it prompts you to make selections, you can leave everything as the default. When it launches you are all done! VS Code is the editor we will be using.
+
+![vs conda](https://github.com/aeason18/SAC-Coding-Meetings-26-27/blob/main/images/vs%20conda.png)
