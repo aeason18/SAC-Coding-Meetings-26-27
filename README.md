@@ -1,5 +1,5 @@
 # SAC Coding Meetings 26-27
-Welcome to the Charlotte Sports Analytics Club! This is where the information we go over at our coding meetings will be stored.
+Welcome to the Charlotte Sports Analytics Club! This is where the information we go over at our coding meetings will be posted.
 ## Installing Docker and TablePlus
 Docker and TablePlus are new tools we will use to manipulate and import our data into VS Code. <br>
 
