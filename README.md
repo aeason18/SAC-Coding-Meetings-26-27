@@ -3,7 +3,7 @@ Welcome to the Charlotte Sports Analytics Club! This is where the information we
 ## Installing Docker and TablePlus
 Docker and TablePlus are new tools we will use to manipulate and import our data into VS Code. <br>
 
-Docker (Windows): https://docs.docker.com/desktop/setup/install/windows-install/
+Docker (Windows): https://docs.docker.com/desktop/setup/install/windows-install/ <br>
 Docker (Mac): https://docs.docker.com/desktop/setup/install/mac-install/ <br>
 
 TablePlus: https://tableplus.com/download/ <br> 
