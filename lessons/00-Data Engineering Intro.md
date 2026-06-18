@@ -3,7 +3,7 @@ To start, make sure you have Docker and TablePlus installed. Next, open Docker. 
 
 ![pg install](https://github.com/aeason18/SAC-Coding-Meetings-26-27/blob/main/images/pg%20install.png)
 
-Now, open your terminal and run this line: <br>
+Now, open your terminal, customize your database name and password, and run this line: <br>
 ```
 docker run --name sac_example -e POSTGRES_PASSWORD=your_password_here -d -p 5432:5432 postgres:14.23-alpine3.24
 ```
