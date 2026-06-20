@@ -20,7 +20,7 @@ Press connect. <br>
 
 Now, go to VS Code and make a new text file. Let's use this [data set](https://www.pro-football-reference.com/years/2025/passing.htm) from Pro Football Reference as an example. On their website, go to the **Share & Export** option and select **Get table as CSV.** Then, copy and paste the information into the text file you made in VS Code and save it as a CSV. <br>
 
-**Reminder:** Always cite where you get your data in your projects. <br>
+**Reminder:** Always cite where you get your data for your projects. <br>
 
 Go back to TablePlus and right-click on Tables: Import > From CSV. Next, choose the file you just made. In the Import CSV Wizard, make sure that Create new table is selected and then press Import. Refresh the workspace, and you should have a working DB with some data in it! <br>
 
