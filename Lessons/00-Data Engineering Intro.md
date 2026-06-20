@@ -1,5 +1,5 @@
 # Lesson 0: Data Engineering
-[Today's Jupyter notebook] <br>
+[Today's Jupyter notebook](https://github.com/aeason18/SAC-Coding-Meetings-26-27/blob/main/Notebooks/Notebook_0.ipynb) <br>
 
 To start, make sure you have Docker and TablePlus installed. Next, open Docker. Navigate to the images tab and use the search bar to find and run Postgres (when prompted to make a new container, press cancel): <br>
 
