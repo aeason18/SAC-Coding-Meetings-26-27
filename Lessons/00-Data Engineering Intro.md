@@ -1,6 +1,9 @@
 # Lesson 0: Data Engineering
 [Today's Jupyter notebook](https://github.com/aeason18/SAC-Coding-Meetings-26-27/blob/main/Notebooks/SAC_lesson_00.ipynb) <br>
 
+[data set](https://www.pro-football-reference.com/years/2025/passing.htm) <br>
+
+## Lesson Summary
 To start, make sure you have Docker and TablePlus installed. Next, open Docker. Navigate to the images tab and use the search bar to find and run Postgres (when prompted to make a new container, press cancel): <br>
 
 ![pg install](https://github.com/aeason18/SAC-Coding-Meetings-26-27/blob/main/Images/pg%20install.png)
