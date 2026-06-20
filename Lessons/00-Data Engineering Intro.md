@@ -2,7 +2,7 @@
 [Today's Jupyter notebook]
 To start, make sure you have Docker and TablePlus installed. Next, open Docker. Navigate to the images tab and use the search bar to find and run Postgres (when prompted to make a new container, press cancel): <br>
 
-![pg install](https://github.com/aeason18/SAC-Coding-Meetings-26-27/blob/main/images/pg%20install.png)
+![pg install](https://github.com/aeason18/SAC-Coding-Meetings-26-27/blob/main/Images/pg%20install.png)
 
 Now, open your terminal, customize your database name and password, and run this line: <br>
 ```
@@ -10,11 +10,11 @@ docker run --name sac_example -e POSTGRES_PASSWORD=your_password_here -d -p 5432
 ```
 You should now have something like this in your containers tab: <br>
 
-![pg db running](https://github.com/aeason18/SAC-Coding-Meetings-26-27/blob/main/images/pg%20db%20running.png)
+![pg db running](https://github.com/aeason18/SAC-Coding-Meetings-26-27/blob/main/Images/pg%20db%20running.png)
 
 Next, open TablePlus, hit Create Connection, and select PostgreSQL. When you get here, **Name** can be anything, and everything else should match. Use the password you created earlier. <br>
 
-![pg db connection](https://github.com/aeason18/SAC-Coding-Meetings-26-27/blob/main/images/pg%20db%20connection.png)
+![pg db connection](https://github.com/aeason18/SAC-Coding-Meetings-26-27/blob/main/Images/pg%20db%20connection.png)
 
 Press connect. <br>
 
@@ -26,7 +26,7 @@ Go back to TablePlus and right-click on Tables: Import > From CSV. Next, choose 
 
 It should look something like this: <br>
 
-![working db](https://github.com/aeason18/SAC-Coding-Meetings-26-27/blob/main/images/working%20db.png)
+![working db](https://github.com/aeason18/SAC-Coding-Meetings-26-27/blob/main/Images/working%20db.png)
 
 Now open the provided notebook and fill in your password and table name. You should see the data you imported to TablePlus. <br>
 
