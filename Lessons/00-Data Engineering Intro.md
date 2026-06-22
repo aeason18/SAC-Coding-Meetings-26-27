@@ -6,6 +6,7 @@ Download today's notebook and open it in VS Code. <br>
 
 [Data](https://www.pro-football-reference.com/years/2025/passing.htm) <br>
 
+Terminal line to run container: <br>
 ```
 docker run --name sac_example -e POSTGRES_PASSWORD=your_password_here -d -p 5432:5432 postgres:14.23-alpine3.24
 ```
