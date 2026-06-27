@@ -1,4 +1,4 @@
-# Lesson 1: Data Engineering & SQL
+# Lesson 1: Data Engineering & Basic SQL
 
 [Data](https://www.pro-football-reference.com/years/2024/passing.htm) <br>
 
