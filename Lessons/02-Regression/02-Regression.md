@@ -38,6 +38,8 @@ df = pd.read_csv('qb_data.csv')
 ```
 
 ## What is VIF?
-In one of the cells, there is code that outputs VIF values. VIF (Variance Inflation Factor) tells us if 2 or more variables are highly correlated. For example, if you had a housing dataset that contained variables like # of rooms, total square feet, and whether it has a basement or not, both # of rooms and total square feet would have high VIF values because usually properties with higher square feet have more rooms. You would see this in sports with stats like passing yards/completions, shots on goal/goals, and shots/points. **You want to try and keep your VIF values below 5.**<br>
+In one of the cells, there is code that outputs VIF values. VIF (Variance Inflation Factor) tells us if two or more variables are highly correlated. For example, if you had a housing dataset that contained variables like # of rooms, total square feet, and whether it has a basement or not, both # of rooms and total square feet would have high VIF values because usually properties with higher square feet have more rooms. You would see this in sports with stats like passing yards/completions, shots on goal/goals, and shots/points. **You want to try and keep your VIF values below 5.**<br>
 
+## How do you Interpret a Model Output?
+In the next cell, there is code that prints a model output. There is lots of good information here, but the three main pieces are the coefficients, P-values, and R-squared values. The coefficients tell us how important each feature was, the P-values indicate how statistically significant each feature is, and the R-squared value tells you how "good" your model is. A feature is statistically significant if its P-value is less than 0.05. Your model is pretty good if your R-squared value is between 0.4 and 0.6, but you always want to be as close to 1.0 as possible. 
 
