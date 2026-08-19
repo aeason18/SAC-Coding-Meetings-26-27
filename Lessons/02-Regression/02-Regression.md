@@ -53,6 +53,7 @@ The model output gives you all the information needed to perform this calculatio
 
 ## Why are the Predictions Low?
 The model's predictions seem a little bit low, lets take a look at this graph: <br>
+
 ![p_tds.png](https://github.com/aeason18/SAC-Coding-Meetings-26-27/blob/main/Images/p_tds.png)
 
 The graph shows us that it is much more common for a player to throw 0-25 touchdowns than it is for a player to throw 26-50, which explains why the model's predictions are low. 
