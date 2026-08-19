@@ -7,7 +7,9 @@ Linear Regression models use multiple independent variables to predict the value
 ## Today's Model
 The model you will be making today uses NFL passing data from 2016 to 2024. At the end, you will be able to predict the passing stats for the 2026 season and have a good understanding of what linear regression is used for. <br>
 
-At the top of all of our notebooks, there will be a cell that looks like this: <br>
+**Open GitHub Desktop and open the repository in VS Code.** <br>
+
+At the top of all of these notebooks, there will be a cell that looks like this: <br>
 
 ```python
 import pandas as pd
@@ -18,7 +20,7 @@ from sklearn.metrics import mean_squared_error
 import matplotlib.pyplot as plt
 ```
 
-These are just tools that will help us construct and view our model. If you get a 'no module named ___ ' error, insert whatever it says your missing in the blank and run something like this: <br>
+These are just tools that will help you construct and view your model. If you get a 'no module named ___ ' error, insert whatever it says your missing in the blank and run something like this: <br>
 
 ```python
 # if this one doesn't work, try the others
@@ -28,4 +30,8 @@ pip install _____
 !pip install _____
 
 ```
+The notebooks will also always contain a line that reads the data from a CSV that looks like this: <br>
 
+```python
+df = pd.read_csv('qb_data.csv')
+```
