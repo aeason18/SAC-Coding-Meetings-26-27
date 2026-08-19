@@ -48,7 +48,7 @@ RMSE (Root Mean Squared Error) is the window of error that you should provide yo
 Your model is adding something if the RMSE is less than the standard deviation in the feature you are predicting. Run **df.describe()** to find the standard deviation.
 
 ## What does the Math Look Like?
-The formula for predicting by hand is *intercept + (variable 1 * var 1 coef) + (variable 2 * var 2 coef)...* <br>
+The formula for predicting by hand is: *intercept + (variable 1 * var 1 coef) + (variable 2 * var 2 coef)...* <br>
 The model output gives you all the information needed to perform this calculation. 
 
 ## Why are the Predictions Low?
