@@ -47,5 +47,13 @@ In the next cell, there is code that prints a model output. There is lots of goo
 RMSE (Root Mean Squared Error) is the window of error that you should provide your predictions. For example, if your RMSE is eight and our model predicts Bryce Young to throw 24 touchdowns, it would be better to say that the model predicts Bryce Young to throw somewhere between 16 and 32 touchdowns, which is a very large window, but it explains why the model's R-squared is so low. <br>
 Your model is adding something if the RMSE is less than the standard deviation in the feature you are predicting. Run **df.describe()** to find the standard deviation.
 
+## What does the Math Look Like?
+The formula for predicting by hand is *intercept + (variable 1 * var 1 coef) + (variable 2 * var 2 coef)...* <br>
+The model output gives you all the information needed to perform this calculation. 
 
+## Why are the Predictions Low?
+The model's predictions seem a little bit low, lets take a look at this graph: <br>
+![p_tds.png](https://github.com/aeason18/SAC-Coding-Meetings-26-27/blob/main/Images/p_tds.png)
+
+The graph shows us that it is much more common for a player to throw 0-25 touchdowns than it is for a player to throw 26-50, which explains why the model's predictions are low. 
 
