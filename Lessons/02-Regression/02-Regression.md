@@ -7,7 +7,7 @@ Linear Regression models use multiple independent variables to predict the value
 ## Today's Model
 The model you will be making today uses NFL passing data from 2016 to 2024. At the end, you will be able to predict the passing stats for the 2026 season and have a good understanding of what linear regression is used for. <br>
 
-**Open GitHub Desktop and open the repository in VS Code.** <br>
+**Open GitHub Desktop and then open the repo in VS Code.** <br>
 
 At the top of all of these notebooks, there will be a cell that looks like this: <br>
 
@@ -30,8 +30,14 @@ pip install _____
 !pip install _____
 
 ```
+
 The notebooks will also always contain a line that reads the data from a CSV that looks like this: <br>
 
 ```python
 df = pd.read_csv('qb_data.csv')
 ```
+
+## What is VIF?
+In one of the cells, there is code that outputs VIF values. VIF (Variance Inflation Factor) tells us if 2 or more variables are highly correlated. For example, if you had a housing dataset that contained variables like # of rooms, total square feet, and whether it has a basement or not, both # of rooms and total square feet would have high VIF values because usually properties with higher square feet have more rooms. You would see this in sports with stats like passing yards/completions, shots on goal/goals, and shots/points. <br>
+
+
