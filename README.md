@@ -17,7 +17,7 @@ We are going to use this for every meeting, so make sure to have it installed.
 
 GitHub Desktop: https://desktop.github.com/download/
 
-## Installing Docker and TablePlus
+## Installing Docker and TablePlus (Optional)
 Docker and TablePlus are new tools you can use to manipulate and import your data into VS Code. <br>
 
 Docker (Windows): https://docs.docker.com/desktop/setup/install/windows-install/ <br>
