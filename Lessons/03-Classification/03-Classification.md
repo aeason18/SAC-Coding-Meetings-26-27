@@ -36,8 +36,9 @@ After doing that, you should have a model output. You do not evaluate logistic r
 ## Results and Model Evaluation
 Once you get to the cell where you run your predictions, it should make you a nice plot to display who your model believes played the most like past MVPs. Does your model agree that Matt Stafford should have won MVP in 2025? <br>
 
-Below that, you will have a plot that displays your model's ROC curve. It should look something like this:
+Below that, you will have a plot that displays your model's ROC curve. It should look something like this: <br>
 
+![ROC_SAC.png](https://github.com/aeason18/SAC-Coding-Meetings-26-27/blob/main/Images/ROC_SAC.png)
 
 
 
