@@ -48,6 +48,6 @@ Here is a plot that can help break this down: <br>
 
 ![LJ_graph.png](https://github.com/aeason18/SAC-Coding-Meetings-26-27/blob/main/Images/LJ_graph.png)
 
-Lamar Jackson is the red dots, as you can see, he did not lead in any category except wins, and the highest MVP probability was around 0.16, which leads me to believe that this year the model doesn't think that anybody played like the MVPs from 2016-2022. 
+Lamar Jackson is the red dots; as you can see, he did not lead in any category except wins. Also, the highest MVP probability was around 0.16, which leads me to believe that for 2023 the model doesn't think that anybody played like the MVPs from 2016-2022. 
 
 
