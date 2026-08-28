@@ -40,5 +40,13 @@ Below that, you will have a plot that displays your model's ROC curve. It should
 
 ![ROC_SAC.png](https://github.com/aeason18/SAC-Coding-Meetings-26-27/blob/main/Images/ROC_SAC.png)
 
+What this graph is saying is that to identify 100% of real MVPs, the model had to label 20-25% of Non-MVPs as MVPs. It appears that most of that labeling happened after it had correctly identified 80% of the real MVPs. This tells you that your model performed really well! <br>
+
+There were two years where the model I made was wrong (features used were: 'aggressiveness', 'db_epa', 'TO', 'Wins', 'tot_TD') one of which was a close between Aaron Rodgers and Tom Brady in 2021, and the other was 2023, where it predicted Dak Prescott to win but had very low values for everyone so I wanted to look at why. (Lamar Jackson was the actual winner)<br>
+
+Here is a plot that can help break this down: <br>
+
+
+
 
 
