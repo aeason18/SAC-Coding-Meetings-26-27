@@ -46,6 +46,7 @@ There were two years where the model I made was wrong (features used were: 'aggr
 
 Here is a plot that can help break this down: <br>
 
+![LJ_graph.png](https://github.com/aeason18/SAC-Coding-Meetings-26-27/blob/main/Images/LJ_graph.png)
 
 
 
