@@ -4,7 +4,7 @@ Once you have GitHub Desktop installed, you should be on this menu:
 
 ![GHD_start](https://github.com/aeason18/SAC-Coding-Meetings-26-27/blob/main/Images/GHD_start.png)
 
-Select *Clone a repository from the internet...* and paste in the link to the main page of this repo.  <br>
+Select *Clone a repository from the internet...* and paste in this link: https://github.com/aeason18/SAC-Coding-Meetings-26-27  <br>
 
 If you are returning and already have GitHub Desktop, you will see something like this: 
 
