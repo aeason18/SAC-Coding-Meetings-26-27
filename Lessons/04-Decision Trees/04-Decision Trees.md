@@ -24,3 +24,13 @@ After that, we must split our data into training and testing data, in our last i
 # test_size = 0.2 means that we are saving a random 20% of our data for testing and using the other 80% for training.
 X_train, X_test, y_train, y_test = ###########(X, y, test_size=0.2, random_state=42)
 ```
+
+Next, we need to fit our model, which we do in the cell below. If you run it, it will give you an error, which should help you figure out what parameters are missing from ```model.fit(_, _)```, remember we use just our training data to fit our model. <br>
+
+```python
+# Set max_depth to control tree complexity 
+model = DecisionTreeClassifier(max_depth=3, criterion='gini', random_state=42)
+
+# Train the model on the training data
+model.fit()
+```
